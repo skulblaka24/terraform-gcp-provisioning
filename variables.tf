@@ -12,10 +12,6 @@ variable "project_name" {
   description = "GCP project targeted"
 }
 
-variable "account_file_path" {
-  description = "GCP credentials on disk"
-}
-
 variable "image" {
   description = "GCP Image to use"
   default     = "debian-9"
