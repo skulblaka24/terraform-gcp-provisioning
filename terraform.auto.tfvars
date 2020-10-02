@@ -1,7 +1,6 @@
 region = "europe-west1"
 region_zone = "europe-west1-c"
 project_name = "starfly-lab"
-account_file_path = "../../../../keys/hashicorp-starfly-lab-terraform.json"
 image = "debian-cloud/debian-9"
 ssh_user = "gauth"
 ssh_pub_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILBd8AerMuCVlT1ERPifxLdJ4ctQATQX6XMrzpQLK1kf master@starfly.fr"
