@@ -43,3 +43,8 @@ variable "external_source_ranges" {
   default     = ["0.0.0.0/0"]
 }
 
+# Remember to paste the one-line json into the variable value
+# Capital Letters required
+variable "GOOGLE_CREDENTIALS" {
+  description = "GCP access credentials"
+}
