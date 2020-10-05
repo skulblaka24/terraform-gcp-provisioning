@@ -41,7 +41,7 @@ resource "google_compute_instance" "tfe" {
 
   metadata = {
     sshKeys   = "${var.ssh_user}:${var.ssh_pub_key}"
-    # startup_script for debian
+    # startup_script for debian.
     startup_script = "sudo apt-get update; sudo apt-get install -yq build-essential python dnsutils libcap2-bin"
   }
 
