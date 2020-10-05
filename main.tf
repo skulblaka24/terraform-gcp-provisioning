@@ -9,7 +9,7 @@ resource "google_compute_address" "tfe-ip-addresses" {
   count = var.node_count
 }
 
-# Google Cloud Engine instance creation
+# Google Cloud Engine instance creation.
 # https://cloud.google.com/compute/docs/machine-types
 # https://cloud.google.com/compute/docs/regions-zones
 resource "google_compute_instance" "tfe" {
