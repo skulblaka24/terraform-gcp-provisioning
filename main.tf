@@ -13,7 +13,7 @@ resource "google_compute_address" "tfe-ip-addresses" {
 # https://cloud.google.com/compute/docs/machine-types
 # https://cloud.google.com/compute/docs/regions-zones
 resource "google_compute_instance" "tfe" {
-  name                      = "prod-tfe-${count.index}"
+  name                      = "machine-de-test-${count.index}"
   machine_type              = var.instance_type
   zone                      = var.region_zone
   allow_stopping_for_update = true
