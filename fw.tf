@@ -1,5 +1,5 @@
 resource "google_compute_firewall" "allow-inbound-tfe-replicated" {
-  name    = "allow-inbound-tfe-replicated"
+  name    = "allow-inbound-tfe-replicated-2"
   network = "default"
 
   allow {
