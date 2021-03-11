@@ -28,7 +28,8 @@ resource "google_compute_instance" "tfe" {
   }
 
   network_interface {
-    network = "default", "paloaltonetwork1"
+    network = "default"
+    "paloaltonetwork1"
 
     access_config {
       # Static IP
