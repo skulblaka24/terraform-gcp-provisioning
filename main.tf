@@ -28,7 +28,7 @@ resource "google_compute_instance" "tfe" {
   }
 
   network_interface {
-    network = "default"
+    network = "default", "paloaltonetwork1"
 
     access_config {
       # Static IP
@@ -37,8 +37,6 @@ resource "google_compute_instance" "tfe" {
         count.index,
       )
     }
-    
-    network = "paloaltonetwork1"
   }
 
   metadata = {
