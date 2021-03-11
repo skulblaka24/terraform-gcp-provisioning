@@ -37,6 +37,8 @@ resource "google_compute_instance" "tfe" {
         count.index,
       )
     }
+    
+    network = "paloaltonetwork1"
   }
 
   metadata = {
