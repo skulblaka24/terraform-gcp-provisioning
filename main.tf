@@ -23,7 +23,7 @@ resource "google_compute_instance" "tfe" {
   boot_disk {
     initialize_params {
       image = var.image
-      size = 40
+      size = 100
     }
   }
 
