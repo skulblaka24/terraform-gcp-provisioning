@@ -22,3 +22,7 @@ module "vm_compute_instance" {
   image = var.image
   instance_type = var.instance_type
 }
+
+module "vm_firewall_rules" {
+  source  = "github.com/skulblaka24/terraform-module-gcp-fw"
+}
