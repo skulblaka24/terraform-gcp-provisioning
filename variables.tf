@@ -7,6 +7,10 @@ variable "project_name" {
   description = "GCP project targeted"
 }
 
+variable "service_account_email" {
+  description = "GCP project targeted"
+}
+
 variable "region_zone" {
   description = "GCP zone targeted"
   default     = "europe-west1-c"
