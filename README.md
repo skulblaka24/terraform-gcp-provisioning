@@ -10,13 +10,15 @@ For example, add "GOOGLE_CREDENTIALS" to be able to connect to GCP in TFC or use
 Variable available:
 -------------------
 
-<code>region = "europe-west1"
-\region_zone = "europe-west1-c"
-\project_name = "starfly-lab-290613"
-\node_count = "1"
-\image = "debian-cloud/debian-9"
-\ssh_user = "gauth"
-\ssh_pub_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILBd8AerMuCVlT1ERPifxLdJ4ctQATQX6XMrzpQLK1kf gauth@starfly.fr"
-\instance_type = "n1-standard-2"
-\GOOGLE_CREDENTIALS = "dsqdfsf"</code>
+```
+region = "europe-west1"
+region_zone = "europe-west1-c"
+project_name = "starfly-lab-290613"
+node_count = "1"
+image = "debian-cloud/debian-9"
+ssh_user = "gauth"
+ssh_pub_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILBd8AerMuCVlT1ERPifxLdJ4ctQATQX6XMrzpQLK1kf gauth@starfly.fr"
+instance_type = "n1-standard-2"
+GOOGLE_CREDENTIALS = "dsqdfsf"
+```
 
