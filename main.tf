@@ -25,5 +25,5 @@ module "vm_compute_instance" {
 
 module "vm_firewall_rules" {
   source  = "github.com/skulblaka24/terraform-module-gcp-fw"
-  depends_on = "vm_compute_instance"
+  depends_on = [vm_compute_instance]
 }
