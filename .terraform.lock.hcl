@@ -1,0 +1,51 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "doormat.hashicorp.services/hashicorp-security/doormat" {
+  version     = "0.0.2"
+  constraints = "~> 0.0.2"
+  hashes = [
+    "h1:EjgzPRhiDlEdjkH0yIwNYT4r3lZU4TNsY6QQnUtOLIM=",
+    "zh:09663a5050ee613c85073b8ba09f5c7ccb927e4d178118fa8b011d872c0803e3",
+    "zh:1546e7a5056b61a230ae4c08a17da91c413376cc5d95c6b9d1ddf4840bd7b8f8",
+    "zh:2ab714f35c2c85bfb877efd4f21f76e69077fe75d1a9b7e3004af118146a20ab",
+    "zh:2e5181943a8445a0db80508654a28aa490fe3e2ba4c5b391d8961638c9599e80",
+    "zh:56d9fb3aff7c2956971920349c022a20e38fc048554ca0f73013ceff5ff2e7de",
+    "zh:5a9fc573d24ac0f0fe915a0cfdabf649c8a535d1fec50f413e38b93b56cc1ca8",
+    "zh:65c92f1a325de9aead79c1ea719c1af1ce133620118bb4e50af79271b2a770ca",
+    "zh:69ff8bd14125dfb868eaa1e58491be3d1176555507c499c5e7a78c40bf72bb08",
+    "zh:8072fcea37188f85e8e9c60472b7bce0ed1e757f7015c22c438d902cbb255729",
+    "zh:894914e54be958d7b183faecefac462922b96986120add00bad9c6804d859970",
+    "zh:8eb4c797847fccef29cc7ca190fd7375cea3943b73e317b2b9057f358003ff7f",
+    "zh:9127b9ea98e0d8a03e22b56eec6f240d33d1faf83b869aff0e8c595b52c3c090",
+    "zh:b62c4bdc0b5897d7b3ade7d74ad8869b3a38cacbf9912e4305cc121ae5ec68af",
+    "zh:c61db8fd5c0552b82e9817ee3ce5352f6afcac8f8bcd7d34ecb05cd7149ad5c1",
+    "zh:cc622f44c7e0b373c78a96639874b4635fd7212cc21c8b496f2f07e58d144098",
+    "zh:ce6824bd519e84ee3238454c02ea181ac2e5dcf34acb153a4959419720dafec6",
+    "zh:d8df86d34b207ad7e26c2d64d7068ed0db2d9a48f1e5f0236ae071dc13a56658",
+    "zh:d935fcbb05ffc9cb3435fb64ce0bded327dc1e48411c9251f329bf00f454157b",
+    "zh:f696c7c1eb9461a129f821c0e3bf86fc2988d1665987e689ce7dfa2db1be5f14",
+    "zh:f7c10fc2d397c76c96edea12ff6f599425916f637e6b27c8faff95d8d2cb03a7",
+    "zh:fca8ac5e54501099b8150b5cfcc4df2c59bb44dd6af059a668e866b62551f842",
+    "zh:fd3b3074eb0b3f316b42e0dd0c1594295db04d0dce886c96c23eb4fff9ddcf2f",
+  ]
+}
+
+provider "registry.terraform.io/hashicorp/google" {
+  version = "4.27.0"
+  hashes = [
+    "h1:ht3rMVVE/AHBadDIPoMGS5jcbgnRMcgPKvqKrRQ33CU=",
+    "zh:0ec41ae6810de7e1dbf8c8926523fb2cb6947f62932152c82c2c52ca2d9880be",
+    "zh:28349b499a631e15a02eb9603c659ec894cd50149be6b90c3b35b11980a234a2",
+    "zh:2fcbb1c4d3e6512a18330eb8141b2518acac2358fb7c05c374d32a6dcc435916",
+    "zh:4535e448bd794743fe14e8f9d1e640b28a0689b44341ea8fd5d9b229038693c8",
+    "zh:545ac27a491cb054ca4b7fbd83999a0b48e445036c06cb470c78afb9dcb5fb6f",
+    "zh:60df2a43c3791e1c919cdf9f1388dcf73cd4c9de4e266539b2c489eb8be9ec09",
+    "zh:756ea83635bc607e935cd0b9adaa3fc0f9528038766e1dba1f79d74c42556ffb",
+    "zh:7bf6c65359cc5fef8757787abe5f5f8ca786ce4de3045872226b54a7b51a5e29",
+    "zh:bbb0f05e4f080aae755752e68ca8b03240602d7af254a86af1e392c0dd5776b5",
+    "zh:c663bc5b18bc5015ccf763f6f6baea26319459e1e757af34a250b27cf689b80a",
+    "zh:da23872670199d3ce5448c1a75bf4ac9fbeafb92bad84a3e977de6c0a9dced08",
+    "zh:f569b65999264a9416862bca5cd2a6177d94ccb0424f3a4ef424428912b9cb3c",
+  ]
+}

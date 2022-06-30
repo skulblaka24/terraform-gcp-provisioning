@@ -7,10 +7,6 @@ variable "project_name" {
   description = "GCP project targeted"
 }
 
-variable "service_account_email" {
-  description = "GCP project targeted"
-}
-
 variable "region_zone" {
   description = "GCP zone targeted"
   default     = "europe-west1-c"
@@ -41,11 +37,11 @@ variable "node_count" {
 
 #### Google Firewalling
 
-variable "external_source_ranges" {
-  type        = list(string)
-  description = "Source range to allow inbound traffic to Consul API"
-  default     = ["0.0.0.0/0"]
-}
+#variable "external_source_ranges" {
+#  type        = list(string)
+#  description = "Source range to allow inbound traffic to Consul API"
+#  default     = ["0.0.0.0/0"]
+#}
 
 # Remember to paste the one-line json into the variable value
 # Capital Letters required
