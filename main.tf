@@ -3,6 +3,7 @@ terraform {
     google = {
       source  = "hashicorp/google"
     }
+  }
 }
 
 # Configure the Google Cloud provider
