@@ -3,18 +3,18 @@ variable "region" {
   default     = "europe-west1"
 }
 
+variable "project_name" {
+  description = "GCP project targeted"
+}
+
 variable "region_zone" {
   description = "GCP zone targeted"
   default     = "europe-west1-c"
 }
 
-variable "project_name" {
-  description = "GCP project targeted"
-}
-
 variable "image" {
   description = "GCP Image to use"
-  default     = "debian-9"
+  default     = "debian-cloud/debian-9"
 }
 
 variable "instance_type" {
