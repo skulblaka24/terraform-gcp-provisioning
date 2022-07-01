@@ -13,7 +13,8 @@ provider "google" {
 }
 
 module "vm_compute_instance" {
-  source  = "github.com/skulblaka24/terraform-module-gcp-compute"
+  #source = "github.com/skulblaka24/terraform-module-gcp-compute"
+  source = "app.terraform.io/gauth/gcp-compute"
 
   region_zone = var.region_zone
   node_count = var.node_count
@@ -24,5 +25,6 @@ module "vm_compute_instance" {
 }
 
 module "vm_firewall_rules" {
-  source  = "github.com/skulblaka24/terraform-module-gcp-fw"
+  #source  = "github.com/skulblaka24/terraform-module-gcp-fw"
+  source  = "app.terraform.io/gauth/gcp-fw"
 }
